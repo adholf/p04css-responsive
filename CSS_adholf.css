@@ -1,0 +1,70 @@
+body {
+  background-color: cyan;
+}
+
+img{
+		width: 4cm;
+		border-radius: 50%;
+		box-shadow: 1px 1px 4px gray;
+		padding: 5px;
+		background: white;
+		margin: 15px;
+		transition: 0.2s;
+		opacity: 75%;
+}
+
+img:hover{
+		transform: scale(1.2);
+		opacity: 100%;
+		box-shadow: 1px 1px 6px red;
+}
+
+h3{
+		background-color:#708c98;
+		color:black;
+		float: center;
+}
+
+thead{
+		background-color:#708c98;
+}
+
+@media only screen and (max-width: 360px){
+	.bodi {
+		background-color:gray;
+		font-size:17px;
+	}
+	
+	.titel {
+		font-size:25px;
+		background-color:black;
+		margin-right: -230px;
+		margin-left: 20px;
+		color:yellow;
+	}
+
+	.tabel {
+		margin-right: -230px;
+		margin-left: 20px;
+	}
+
+	.form {
+		margin-right: 20px;
+		margin-left: 20px;
+	}
+	
+	.isittd {
+		margin-right: 133px;
+		margin-left: 133px;
+		margin-top: 10px;
+	}
+	
+	img {
+		width: 2cm;
+	}
+	
+	.ikmi {
+		font-size:17px;
+	}
+	
+}
